@@ -1,0 +1,2 @@
+# SunstoneSshContainer
+run ./build.sh

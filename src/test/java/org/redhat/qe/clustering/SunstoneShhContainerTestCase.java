@@ -16,8 +16,6 @@ public class SunstoneShhContainerTestCase {
         try (CloudProvider cloudProvider = CloudProvider.create("myprovider")) {
             try (Node node1 = cloudProvider.createNode("node1")) {
                 node1.start();
-            } catch (Exception err) {
-
             }
         }
 
